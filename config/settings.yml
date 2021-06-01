@@ -3,3 +3,8 @@ home:
 help:
   link_help: "https://www.railstutorial.org/help"
   link_book: "https://www.railstutorial.org/book"
+about:
+  path_link: "https://www.railstutorial.org/"
+  path_link1: "https://www.railstutorial.org/book"
+  path_link2: "https://www.railstutorial.org/help"
+  path_link3: "https://rubyonrails.org/"

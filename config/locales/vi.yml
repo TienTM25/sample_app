@@ -1,0 +1,18 @@
+vi:
+  layouts:
+    application:
+      title: "Hướng dẫn Ruby on Rails Sample App"
+      en: "Tiếng Anh"
+      vi: "Tiếng Viet"
+  static_page:
+    home:
+      subtitle: "Trang chủ"
+      text1: "Đây là trang chủ của"
+      path_text: "Ruby on Rails Tutorial"
+      text: "ứng dụng Sample"
+    help:
+      subtitle: "Trang chủ"
+      page_text: "Để lấy gợi ý của Ruby on Rails"
+      path_text: "Trang trợ giúp của Rails Tutorial"
+      text: "Để xem gợi ý, hãy vào"
+      path_text2: "Sách hướng dẫn Ruby on Rails"

@@ -1,0 +1,5 @@
+home:
+  link_rails: "https://www.railstutorial.org/"
+help:
+  link_help: "https://www.railstutorial.org/help"
+  link_book: "https://www.railstutorial.org/book"

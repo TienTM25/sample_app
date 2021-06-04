@@ -46,7 +46,19 @@ en:
       subtilte: "Contact"
       text_contact_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       text_contact_2: "contact page"
-  user:
+  users:
     new:
       subtitle: "Sign up"
-      text_user_1: "This will be a signup page for new users."
+      form_name: "name"
+      form_password: "password"
+      form_pass_confirm: "password Confirmation"
+      create_account: "Create my account"
+  controllers:
+    users:
+      welcome_text: "Welcome to the Sample App!"
+      err_text: "Can't sign up"
+      user_not_found: "User not found"
+  shared:
+    error_messages:
+      content: "The form contains"
+      message: "error"

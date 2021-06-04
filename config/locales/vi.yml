@@ -47,7 +47,19 @@ vi:
       text_contact_1: "Xem thêm hướng dẫn
       Ruby on Rails về sample app tại"
       text_contact_2: "trang liên lạc"
-  user:
-      new:
-        subtitle: "Đăng nhập"
-        text_user_1: "Đây là trang đăng nhập."
+  users:
+    new:
+      subtitle: "Đăng nhập"
+      form_name: "Tên của bạn"
+      form_password: "Mật khẩu"
+      form_pass_confirm: "Nhập lại mật khẩu"
+      create_account: "Tạo tài khoản"
+  controllers:
+    users:
+      welcome_text: "Chào mừng bạn"
+      err_text: "Không đăng ký được"
+      user_not_found: "Không tìm thấy người dùng"
+  shared:
+    error_messages:
+      content: "Nhập sai"
+      message: "lỗi"

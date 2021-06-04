@@ -16,3 +16,13 @@ en:
       path_text: "Ruby on Rails Tutorial"
       text: "To get help on this sample app, see the"
       path_text2: "Ruby on Rails Tutorial Book"
+    about:
+      subtitle: "About"
+      path_text: "Ruby on Rails Tutorial"
+      end_text: "to read more Rails"
+      path_text1: "The book Ruby on Rails Tutorial"
+      end_text1: "help developer more understant the Rails"
+      path_text2: "Help"
+      end_text2: "will help you coming the developt Ruby on Rails"
+      path_text3: "Read more about Rails on"
+      end_text3: "this is Sample App"

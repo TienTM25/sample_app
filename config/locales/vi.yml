@@ -16,3 +16,13 @@ vi:
       path_text: "Trang trợ giúp của Rails Tutorial"
       text: "Để xem gợi ý, hãy vào"
       path_text2: "Sách hướng dẫn Ruby on Rails"
+    about:
+      subtitle: "Xem Thêm"
+      path_text: "Hướng dân Ruby on Rails"
+      end_text: "để biết thêm về Rails"
+      path_text1: "Những quyển sách hay"
+      end_text1: "sẽ giúp lập trình viên rõ hơn về giải pháp"
+      path_text2: "Sự trợ giúp"
+      end_text2: "sẽ là nguồn sách giúp đỡ bạn"
+      path_text3: "Đọc thêm về Rails tại"
+      end_text3: "đây là ứng dụng Sample"

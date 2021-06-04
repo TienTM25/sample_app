@@ -44,10 +44,10 @@ vi:
       end_text3: "đây là ứng dụng Sample"
     contact:
       subtitle: "Liên lạc"
-      text_contact_1: "Xem thêm hướng dẫn 
+      text_contact_1: "Xem thêm hướng dẫn
       Ruby on Rails về sample app tại"
       text_contact_2: "trang liên lạc"
   user:
-      new: 
+      new:
         subtitle: "Đăng nhập"
         text_user_1: "Đây là trang đăng nhập."

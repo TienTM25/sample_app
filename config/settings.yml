@@ -15,3 +15,8 @@ footer:
   link_news: "https://news.railstutorial.org/"
 contact:
   link_contact: "https://www.railstutorial.org/contact"
+user:
+  name: 50
+  email: 255
+  password: 6
+  regex_email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'

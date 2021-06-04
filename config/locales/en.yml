@@ -4,21 +4,37 @@ en:
       title: "Ruby on Rails Tutorial Sample App"
       en: "English"
       vi: "Vietnamese"
+    header:
+      title: "Ruby on Rails Tutorial Sample App"
+      link_home: "Home"
+      link_help: "Help"
+      link_login: "Login"
+    footer:
+      link_about: "About"
+      link_contact: "Contact"
+      link_news: "News"
+      text_footer_1: "The"
+      text_footer_2: "Ruby on Rails Tutorial"
+      text_footer_3: "by"
+      text_footer_4: "Michael Hartl"
+      trans_en: "English"
+      trans_vi: "Vietnamese"
   static_page:
     home:
       subtitle: "Home"
       text1: "This is the home page for the"
       path_text: "Ruby on Rials Tutorial"
       text: "sample application"
+      sign_up: "Sign up now"
     help:
-      subtitle: "Home"
+      subtitle: "Help"
       page_text: "Get help on the Ruby on Rails Tutorial at the"
       path_text: "Ruby on Rails Tutorial"
       text: "To get help on this sample app, see the"
       path_text2: "Ruby on Rails Tutorial Book"
     about:
       subtitle: "About"
-      path_text: "Ruby on Rails Tutorial"
+      path_text: "Visit Ruby on Rails Tutorial"
       end_text: "to read more Rails"
       path_text1: "The book Ruby on Rails Tutorial"
       end_text1: "help developer more understant the Rails"
@@ -26,3 +42,11 @@ en:
       end_text2: "will help you coming the developt Ruby on Rails"
       path_text3: "Read more about Rails on"
       end_text3: "this is Sample App"
+    contact:
+      subtilte: "Contact"
+      text_contact_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      text_contact_2: "contact page"
+  user:
+    new: 
+      subtitle: "Sign up"
+      text_user_1: "This will be a signup page for new users."

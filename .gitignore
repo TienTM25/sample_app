@@ -51,3 +51,4 @@ config/environments/*.local.yml
 
 test/test_helper.rb
 test/controllers/static_page_controller_test.rb
+test/controllers/*.rb

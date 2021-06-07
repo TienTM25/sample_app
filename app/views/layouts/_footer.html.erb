@@ -1,0 +1,16 @@
+<footer class = "footer">
+  <small>
+    <%= t ".text_footer_1" %>
+    <%= link_to t(".text_footer_2"), Settings.footer.link_tutorial %>
+    <%= t ".text_footer_3" %>
+    <%= link_to t(".text_footer_4"), Settings.footer.link_author %>
+  </small>
+  <nav>
+    <li> <%= link_to t(".link_about"), about_path %> </li>
+    <li> <%= link_to t(".link_contact"), contact_path %> </li>
+    <li> <%= link_to t(".link_news"), Settings.footer.link_news %> </li>
+    <!-- automatically switch between en and vi -->
+    <li> <%= link_to t(".trans_en"), locale:"en" %> </li>
+    <li> <%= link_to t(".trans_vi"), locale:"vi" %> </li>
+  </nav>
+</footer>

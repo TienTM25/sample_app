@@ -4,14 +4,30 @@ vi:
       title: "Hướng dẫn Ruby on Rails Sample App"
       en: "Tiếng Anh"
       vi: "Tiếng Viet"
+    header:
+      title: "Hướng dẫn Ruby on Rails Sample App"
+      link_home: "Trang chủ"
+      link_help: "Hỗ trợ"
+      link_login: "Đăng nhập"
+    footer:
+      link_about: "Tìm hiểu"
+      link_contact: "Liên lạc"
+      link_news: "Tin tức"
+      text_footer_1: "Trang"
+      text_footer_2: "Ruby on Rails Tutorial"
+      text_footer_3: "được viết bởi"
+      text_footer_4: "Michael Hartl"
+      trans_en: "Tiếng Anh"
+      trans_vi: "Tiếng Việt"
   static_page:
     home:
       subtitle: "Trang chủ"
       text1: "Đây là trang chủ của"
       path_text: "Ruby on Rails Tutorial"
       text: "ứng dụng Sample"
+      sign_up: "Đăng ký"
     help:
-      subtitle: "Trang chủ"
+      subtitle: "Hỗ trợ"
       page_text: "Để lấy gợi ý của Ruby on Rails"
       path_text: "Trang trợ giúp của Rails Tutorial"
       text: "Để xem gợi ý, hãy vào"
@@ -26,3 +42,12 @@ vi:
       end_text2: "sẽ là nguồn sách giúp đỡ bạn"
       path_text3: "Đọc thêm về Rails tại"
       end_text3: "đây là ứng dụng Sample"
+    contact:
+      subtitle: "Liên lạc"
+      text_contact_1: "Xem thêm hướng dẫn 
+      Ruby on Rails về sample app tại"
+      text_contact_2: "trang liên lạc"
+  user:
+      new: 
+        subtitle: "Đăng nhập"
+        text_user_1: "Đây là trang đăng nhập."

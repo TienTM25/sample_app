@@ -73,6 +73,11 @@ vi:
     user:
       linkto_delete: "Xóa"
       confirm_delete: "Xác nhận"
+    show_follow:
+      my_profile: "vào trang cá nhân"
+      micropost: "Các bài đăng:"
+    follow: "Theo  dõi"
+    unfollow: "Hủy theo dõi"
   controllers:
     users:
       welcome_text: "Chào mừng bạn"
@@ -89,6 +94,9 @@ vi:
     account_activations:
       account_activated: "Tài khoản đã kích hoạt!"
       invalid_link: "Đường dẫn kích hoạt chưa hợp lệ"
+    follow:
+      following: "Người bạn theo dõi"
+      followers: "Người theo dõi bạn"
   password_resets:
     new:
       forgot_password: "Quên mật khẩu"
@@ -123,6 +131,9 @@ vi:
     user_info:
       view_my_profile: "vào trang cá nhân"
       micropost: "Bài đăng"
+    stats:
+      following: "Người bạn theo dõi"
+      follower: "Người theo dõi bạn"
   sessions:
     new:
       subtitle: "Đăng nhập"

@@ -73,6 +73,11 @@ en:
     user:
       linkto_delete: "delete"
       confirm_delete: "You sure ?"
+    show_follow:
+      my_profile: "view my profile"
+      micropost: "Microposts:"
+    follow: "Follow"
+    unfollow: "Unfollow"
   controllers:
     users:
       welcome_text: "Welcome to the Sample App!"
@@ -89,6 +94,9 @@ en:
     account_activations:
       account_activated: "Account activated!"
       invalid_link: "Invalid activation link"
+    follow:
+      following: "Following"
+      followers: "Followers"
   password_resets:
     new:
       forgot_password: "Forgot Password"
@@ -123,6 +131,9 @@ en:
     user_info:
       view_my_profile: "view my profile"
       micropost: "Micropost"
+    stats:
+      following: "Following"
+      follower: "Follower"
   sessions:
     new:
       subtitle: "Log in"

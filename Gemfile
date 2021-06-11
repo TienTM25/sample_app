@@ -9,6 +9,7 @@ gem "bootstrap-sass", "3.4.1"
 gem "bootstrap-will_paginate", "1.0.0"
 gem "config"
 gem "faker", "2.1.2"
+gem "figaro"
 gem "jbuilder", "~> 2.7"
 gem "kaminari"
 gem "mysql2", "~> 0.5.3"
@@ -18,6 +19,7 @@ gem "rails-i18n"
 gem "sass-rails", ">= 6"
 gem "turbolinks", "~> 5"
 gem "webpacker", "~> 5.0"
+gem "will_paginate", "3.1.8"
 
 group :development, :test do
   gem "pry-rails", platforms: [:mri, :mingw, :x64_mingw]

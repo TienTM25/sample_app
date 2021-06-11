@@ -83,6 +83,11 @@ en:
       fail_destroy: "Fail Destroy"
     sessions:
       invalid_infor: "Invalid email or password"
+      account_not_active: "Account not activated. Check your email for
+      the activation link."
+    account_activations:
+      account_activated: "Account activated!"
+      invalid_link: "Invalid activation link"
   shared:
     error_messages:
       content: "The form contains"
@@ -96,3 +101,11 @@ en:
       new_user: "New User?"
       signup_link: "Sign up now !"
       remember_me: "Remember me on this computer"
+  user_mailer:
+    account_activation:
+      subtitle: "Active Now"
+      greeting: "Hi"
+      text_link: "Welcome to the Sample App! Click on the link below to
+      activate your account:"
+      check_account: "Please check your email to activate your account."
+    subject: "Account Activation"

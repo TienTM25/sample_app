@@ -22,6 +22,7 @@ module SessionsHelper
   end
 
   def current_user
+    # kiem tra xem trong session co id user khong
     if user_id = session[:user_id]
       @current_user ||= User.find_by(id: user_id)
     elsif user_id = cookies.signed[:user_id]

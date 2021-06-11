@@ -9,6 +9,11 @@ vi:
       link_home: "Trang chủ"
       link_help: "Hỗ trợ"
       link_login: "Đăng nhập"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Cài đặt"
+      log_out: "Đăng xuất"
+      user: "Người dùng"
     footer:
       link_about: "Tìm hiểu"
       link_contact: "Liên lạc"
@@ -59,7 +64,17 @@ vi:
       welcome_text: "Chào mừng bạn"
       err_text: "Không đăng ký được"
       user_not_found: "Không tìm thấy người dùng"
+    sessions:
+      invalid_infor: "Sai tên đăng nhập hoặc mật khẩu"
   shared:
     error_messages:
       content: "Nhập sai"
       message: "lỗi"
+  sessions:
+    new:
+      subtitle: "Đăng nhập"
+      label_email: "Email"
+      label_password: "Mật khẩu"
+      submit_login: "Đăng nhập"
+      new_user: "Người dùng mới?"
+      signup_link: "Đăng ký ngay !"

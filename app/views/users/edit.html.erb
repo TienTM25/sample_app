@@ -1,0 +1,15 @@
+<% provide :title, t(".subtitle") %>
+<% provide :button_text, t("users.edit.submit_button")%>
+<h1><%= t ".update_text" %></h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= render "form" %>
+    <div class="gravatar_edit">
+      <%= gravatar_for @user %>
+      <%= link_to t(".gravatar_text"), Settings.edit.avatar_path,
+       target: "_blank" %>
+      </a>
+    </div>
+  </div>
+</div>

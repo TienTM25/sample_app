@@ -48,6 +48,7 @@ config/database.yml
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
+config/application.yml
 
 test/test_helper.rb
 test/controllers/static_page_controller_test.rb

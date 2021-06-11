@@ -58,11 +58,29 @@ en:
       form_password: "password"
       form_pass_confirm: "password Confirmation"
       create_account: "Create my account"
+    edit:
+      subtitle: "Edit User"
+      update_text: "Update your profile"
+      label_name: "Name"
+      label_email: "Email"
+      label_password: "Password"
+      label_confirm_pass: "Confirm Password"
+      submit_button: "Save Changes"
+      gravatar_text: "Change"
+    index:
+      subtitle: "All User"
+    user:
+      linkto_delete: "delete"
+      confirm_delete: "You sure ?"
   controllers:
     users:
       welcome_text: "Welcome to the Sample App!"
       err_text: "Can't sign up"
       user_not_found: "User not found"
+      update_success: "Profile updated"
+      err_login: "Please log in"
+      flash_delete: "User Deleted"
+      fail_destroy: "Fail Destroy"
     sessions:
       invalid_infor: "Invalid email or password"
   shared:

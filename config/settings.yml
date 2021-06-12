@@ -21,3 +21,5 @@ user:
   password: 6
   regex_email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
   size: 80
+controllers:
+  checkbox_value: 1

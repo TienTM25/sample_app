@@ -9,6 +9,11 @@ en:
       link_home: "Home"
       link_help: "Help"
       link_login: "Login"
+      account: "Account"
+      profile: "Profile"
+      setting: "Setting"
+      log_out: "Log out"
+      user: "Users"
     footer:
       link_about: "About"
       link_contact: "Contact"
@@ -58,7 +63,17 @@ en:
       welcome_text: "Welcome to the Sample App!"
       err_text: "Can't sign up"
       user_not_found: "User not found"
+    sessions:
+      invalid_infor: "Invalid email or password"
   shared:
     error_messages:
       content: "The form contains"
       message: "error"
+  sessions:
+    new:
+      subtitle: "Log in"
+      label_email: "Email"
+      label_password: "Password"
+      submit_login: "Log in"
+      new_user: "New User?"
+      signup_link: "Sign up now !"

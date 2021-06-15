@@ -28,3 +28,9 @@ index:
   img_size: 1000
 edit:
   avatar_path: "https://gravatar.com/emails"
+  img_size: 50
+mircropost:
+  content_length: 140
+  img_type: [image/jpeg, image/gif, image/png]
+  img_size: 5
+  limit_display: 500

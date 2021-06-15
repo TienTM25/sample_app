@@ -1,10 +1,10 @@
 <% provide :title, t(".subtitle") %>
 <h1> <%= t ".subtitle" %> </h1>
 
-<%= will_paginate %>
+<%= paginate @users, theme: "twitter-bootstrap-3" %>
 
 <ul class="users">
   <%= render @users %>
 </ul>
 
-<%= will_paginate %>
+<%= paginate @users, theme: "twitter-bootstrap-3" %>

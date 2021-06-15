@@ -1,0 +1,7 @@
+<% if @feed_items.any? %>
+  <ol class="microposts">
+    <!-- app/views/microposts/_micropost.html.erb -->
+    <%= render @feed_items %>
+  </ol>
+  <%= paginate @feed_items, theme: "twitter-bootstrap-3" %>
+<% end %>

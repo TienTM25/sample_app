@@ -8,7 +8,10 @@ class UsersController < ApplicationController
     @users = User.page(params[:page]).per Settings.controllers.record_per_page
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per
+    Settings.controllers.record_per_page
+  end
 
   def new
     @user = User.new
@@ -22,7 +25,7 @@ class UsersController < ApplicationController
       flash[:success] = t "user_mailer.account_activation.check_account"
       redirect_to login_url
     else
-      flash[:danger] = t "controllers.users.flash_delete"
+      flash[:danger] = t "controllers.users.err_text"
       render :new
     end
   end

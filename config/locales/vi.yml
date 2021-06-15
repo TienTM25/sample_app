@@ -31,6 +31,7 @@ vi:
       path_text: "Ruby on Rails Tutorial"
       text: "ứng dụng Sample"
       sign_up: "Đăng ký"
+      micropost_feed: "Trang Micropost"
     help:
       subtitle: "Hỗ trợ"
       page_text: "Để lấy gợi ý của Ruby on Rails"
@@ -89,22 +90,39 @@ vi:
       account_activated: "Tài khoản đã kích hoạt!"
       invalid_link: "Đường dẫn kích hoạt chưa hợp lệ"
   password_resets:
-      new:
-        forgot_password: "Quên mật khẩu"
-        forgot_button: "Gửi"
-        email_label: "Email"
-      edit:
-        reset_password: "Đặt lại mật khẩu"
-        reset_button: "Cập nhật mật khẩu"
-        password_text: "Mật khẩu"
-        password_confirm: "Xác nhận mật khẩu"
-      password_expire: "Hết hạn thay đổi mặt khẩu"
-      update_success: "Cập nhật mật khẩu thành công"
-      update_fail: "Cập nhật mật khẩu thất bại"
+    new:
+      forgot_password: "Quên mật khẩu"
+      forgot_button: "Gửi"
+      email_label: "Email"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      reset_button: "Cập nhật mật khẩu"
+      password_text: "Mật khẩu"
+      password_confirm: "Xác nhận mật khẩu"
+    password_expire: "Hết hạn thay đổi mặt khẩu"
+    update_success: "Cập nhật mật khẩu thành công"
+    update_fail: "Cập nhật mật khẩu thất bại"
+  microposts:
+    save_success: "Tạo Micropost thành công !"
+    save_fail: "Không thể tạo Micropost"
+    invalid_format_text: "không đúng định dạng"
+    invalid_size_img_text: "phải có kích thước nhỏ hơn 5MB"
+    destroy_success: "Xóa thành công"
+    destroy_fall: "Xóa thất bại"
+    posted: "Đăng"
+    ago: "trước."
+    delete: "xóa"
+    confirm_delete: "Bạn có chắc chắn xóa?"
   shared:
     error_messages:
       content: "Nhập sai"
       message: "lỗi"
+    micropost_form:
+      placeholder_text: "Đăng một bài viết mới..."
+      submid_text: "Đăng"
+    user_info:
+      view_my_profile: "vào trang cá nhân"
+      micropost: "Bài đăng"
   sessions:
     new:
       subtitle: "Đăng nhập"

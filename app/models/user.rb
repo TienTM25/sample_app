@@ -9,7 +9,8 @@ class User < ApplicationRecord
                     format: {with: Settings.user.regex_email},
                     uniqueness: true
   has_secure_password
-  validates :password, presence: true, length: {minimum: Settings.user.password}
+  validates :password, presence: true,
+            length: {minimum: Settings.user.password}, allow_nil: true
 
   def remember
     self.remember_token = User.new_token

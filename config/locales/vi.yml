@@ -59,11 +59,29 @@ vi:
       form_password: "Mật khẩu"
       form_pass_confirm: "Nhập lại mật khẩu"
       create_account: "Tạo tài khoản"
+    edit:
+      subtitle: "Cập nhật"
+      update_text: "Cập nhật thông tin người dùng"
+      label_name: "Tên"
+      label_email: "Email"
+      label_password: "Mật khẩu"
+      label_confirm_pass: "Xác nhận mật khẩu"
+      submit_button: "Lưu thay đổi"
+      gravatar_text: "Đổi ảnh đại diện"
+    index:
+      subtitle: "Toàn bộ người dùng"
+    user:
+      linkto_delete: "Xóa"
+      confirm_delete: "Xác nhận"
   controllers:
     users:
       welcome_text: "Chào mừng bạn"
       err_text: "Không đăng ký được"
       user_not_found: "Không tìm thấy người dùng"
+      update_success: " Cập nhật thành công"
+      err_login: "Vui lòng đăng nhập"
+      flash_delete: "Xóa thành công"
+      fail_destroy: "Xóa thất bại"
     sessions:
       invalid_infor: "Sai tên đăng nhập hoặc mật khẩu"
   shared:

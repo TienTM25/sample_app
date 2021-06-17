@@ -21,3 +21,9 @@ user:
   password: 6
   regex_email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
   size: 80
+controllers:
+  record_per_page: 20
+index:
+  img_size: 1000
+edit:
+  avatar_path: "https://gravatar.com/emails"

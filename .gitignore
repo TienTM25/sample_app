@@ -53,3 +53,6 @@ config/application.yml
 test/test_helper.rb
 test/controllers/static_page_controller_test.rb
 test/controllers/*.rb
+
+# Ignore application configuration
+/config/application.yml

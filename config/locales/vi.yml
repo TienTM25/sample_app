@@ -88,6 +88,19 @@ vi:
     account_activations:
       account_activated: "Tài khoản đã kích hoạt!"
       invalid_link: "Đường dẫn kích hoạt chưa hợp lệ"
+  password_resets:
+      new:
+        forgot_password: "Quên mật khẩu"
+        forgot_button: "Gửi"
+        email_label: "Email"
+      edit:
+        reset_password: "Đặt lại mật khẩu"
+        reset_button: "Cập nhật mật khẩu"
+        password_text: "Mật khẩu"
+        password_confirm: "Xác nhận mật khẩu"
+      password_expire: "Hết hạn thay đổi mặt khẩu"
+      update_success: "Cập nhật mật khẩu thành công"
+      update_fail: "Cập nhật mật khẩu thất bại"
   shared:
     error_messages:
       content: "Nhập sai"
@@ -99,8 +112,9 @@ vi:
       label_password: "Mật khẩu"
       submit_login: "Đăng nhập"
       new_user: "Người dùng mới?"
-      signup_link: "Đăng ký ngay !"
+      signup_link: "Đăng ký ngay!"
       remember_me: "Nhớ mật khẩu"
+      forgot_pass_link: "Quên mật khẩu"
   user_mailer:
     account_activation:
       subtitle: "Sample App"
@@ -108,5 +122,12 @@ vi:
       text_link: "Chào mừng tới Sample App! Nhấn vào link dưới đây để kích
       hoạt tài khoản:"
       check_account: "Vui lòng kiểm tra link kích hoạt tài khoản trong email."
-      active: "Active"
+      active: "Kích hoạt"
     subject: "Kích hoạt tài khoản"
+    account_reset_text: "Đặt lại mật khẩu"
+    account_reset:
+      to_reset_text: "Để đặt lại mật khẩu ấn vào đường dẫn dưới đây"
+      expire_text: "Đường dẫn hết hạn sau 2 giờ"
+      ignore_text: "Nếu bạn không phải là người yêu cầu đổi mật khẩu, vui lòng
+      bỏ qua email này và mật khẩu sẽ được giữ nguyên"
+      reset_password: "Đặt lại mật khẩu"

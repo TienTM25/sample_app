@@ -31,6 +31,7 @@ en:
       path_text: "Ruby on Rials Tutorial"
       text: "sample application"
       sign_up: "Sign up now"
+      micropost_feed: "Micropost Feed"
     help:
       subtitle: "Help"
       page_text: "Get help on the Ruby on Rails Tutorial at the"
@@ -89,22 +90,39 @@ en:
       account_activated: "Account activated!"
       invalid_link: "Invalid activation link"
   password_resets:
-      new:
-        forgot_password: "Forgot Password"
-        forgot_button: "Submit"
-        email_label: "Email"
-      edit:
-        reset_password: "Reset password"
-        reset_button: "Update password"
-        password_text: "Password"
-        password_confirm: "Confirmation"
-      password_expire: "Password reset has expired"
-      update_success: "Update Success"
-      update_fail: "Can't Update Password"
+    new:
+      forgot_password: "Forgot Password"
+      forgot_button: "Submit"
+      email_label: "Email"
+    edit:
+      reset_password: "Reset password"
+      reset_button: "Update password"
+      password_text: "Password"
+      password_confirm: "Confirmation"
+    password_expire: "Password reset has expired"
+    update_success: "Update Success"
+    update_fail: "Can't Update Password"
+  microposts:
+    save_success: "Micropost created !"
+    save_fail: "Can't create Micropost"
+    invalid_format_text: "must be a valid image format"
+    invalid_size_img_text: "should be less than 5MB"
+    destroy_success: "Destroy Success"
+    destroy_fall: "Destroy Fail"
+    posted: "Posted"
+    ago: "ago."
+    delete: "delete"
+    confirm_delete: "You sure?"
   shared:
     error_messages:
       content: "The form contains"
       message: "error"
+    micropost_form:
+      placeholder_text: "Compose new micropost..."
+      submid_text: "Post"
+    user_info:
+      view_my_profile: "view my profile"
+      micropost: "Micropost"
   sessions:
     new:
       subtitle: "Log in"

@@ -4,8 +4,8 @@ class StaticPageController < ApplicationController
 
     # return micropost object
     @micropost = current_user.microposts.build
-    @feed_items = current_user.feed.order_post.page(params[:page]).per \
-    Settings.controllers.record_per_page
+    @feed_items = current_user.feed.order_post.page(params[:page])
+                              .per Settings.controllers.record_per_page
   end
 
   def help; end

@@ -5,8 +5,6 @@ class Micropost < ApplicationRecord
 
   has_one_attached :image
 
-  scope :order_post, ->{order created_at: :desc}
-
   validates :user_id, presence: true
   validates :content, presence: true,
     length: {maximum: Settings.mircropost.content_length}
@@ -18,6 +16,9 @@ class Micropost < ApplicationRecord
                       less_than: Settings.mircropost.img_size.megabytes,
                       message: I18n.t("microposts.invalid_size_img_text")
                     }
+
+  scope :order_post, ->{order created_at: :desc}
+  scope :by_user_id, ->(user_id){where user_id: user_id}
 
   delegate :name, to: :user, prefix: true
 
